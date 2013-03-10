@@ -1,0 +1,2 @@
+verilog work "../../src/ml505top.v"
+verilog work "../../src/LogGraph.v"

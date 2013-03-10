@@ -1,0 +1,700 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (lin64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/trce -v 3 -s 1 -n 10 -fastpaths
+-xml ml505top.twx ml505top.ncd -o ml505top.twr ml505top.pcf
+
+Design file:              ml505top.ncd
+Physical constraint file: ml505top.pcf
+Device,package,speed:     xc5vlx110t,ff1136,-1 (PRODUCTION 1.73 2012-04-23, STEPPING level 0)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: TS_USER_CLK = PERIOD TIMEGRP "CLK_33MHZ_FPGA" 30.3 ns HIGH 
+50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 32 paths analyzed, 32 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   2.847ns.
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C1), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.453ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.812ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P1       Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C1       net (fanout=1)        0.558   Q_1
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.812ns (2.254ns logic, 0.558ns route)
+                                                       (80.2% logic, 19.8% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C13), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.463ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.802ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P13      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C13      net (fanout=1)        0.548   Q_13
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.802ns (2.254ns logic, 0.548ns route)
+                                                       (80.4% logic, 19.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C17), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.463ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.802ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P17      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C17      net (fanout=1)        0.548   Q_17
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.802ns (2.254ns logic, 0.548ns route)
+                                                       (80.4% logic, 19.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C10), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.464ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.801ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P10      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C10      net (fanout=1)        0.547   Q_10
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.801ns (2.254ns logic, 0.547ns route)
+                                                       (80.5% logic, 19.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C15), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.464ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.801ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P15      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C15      net (fanout=1)        0.547   Q_15
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.801ns (2.254ns logic, 0.547ns route)
+                                                       (80.5% logic, 19.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C18), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.464ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.801ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P18      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C18      net (fanout=1)        0.547   Q_18
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.801ns (2.254ns logic, 0.547ns route)
+                                                       (80.5% logic, 19.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C6), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.464ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.801ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P6       Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C6       net (fanout=1)        0.547   Q_6
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.801ns (2.254ns logic, 0.547ns route)
+                                                       (80.5% logic, 19.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C9), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.466ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.799ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P9       Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C9       net (fanout=1)        0.545   Q_9
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.799ns (2.254ns logic, 0.545ns route)
+                                                       (80.5% logic, 19.5% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C14), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.467ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.798ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P14      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C14      net (fanout=1)        0.544   Q_14
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.798ns (2.254ns logic, 0.544ns route)
+                                                       (80.6% logic, 19.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C19), 1 path
+--------------------------------------------------------------------------------
+Slack (setup path):     27.473ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          30.300ns
+  Data Path Delay:      2.792ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 0.000ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.035ns
+
+  Clock Uncertainty:          0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter (TSJ):  0.070ns
+    Total Input Jitter (TIJ):   0.000ns
+    Discrete Jitter (DJ):       0.000ns
+    Phase Error (PE):           0.000ns
+
+  Maximum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P19      Tdspcko_PP            0.556   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C19      net (fanout=1)        0.538   Q_19
+    DSP48_X0Y18.CLK      Tdspdck_CP            1.698   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      2.792ns (2.254ns logic, 0.538ns route)
+                                                       (80.7% logic, 19.3% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: TS_USER_CLK = PERIOD TIMEGRP "CLK_33MHZ_FPGA" 30.3 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C3), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.532ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.532ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P3       Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C3       net (fanout=1)        0.207   Q_3
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.532ns (0.325ns logic, 0.207ns route)
+                                                       (61.1% logic, 38.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C0), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P0       Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C0       net (fanout=1)        0.341   Q_0
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C12), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P12      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C12      net (fanout=1)        0.341   Q_12
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C16), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P16      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C16      net (fanout=1)        0.341   Q_16
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C2), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P2       Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C2       net (fanout=1)        0.341   Q_2
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P4       Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C4       net (fanout=1)        0.341   Q_4
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C8), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.666ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P8       Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C8       net (fanout=1)        0.341   Q_8
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.666ns (0.325ns logic, 0.341ns route)
+                                                       (48.8% logic, 51.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C23), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.667ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.667ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P23      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C23      net (fanout=1)        0.342   Q_23
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.667ns (0.325ns logic, 0.342ns route)
+                                                       (48.7% logic, 51.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C25), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.671ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.671ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P25      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C25      net (fanout=3)        0.346   counter<25>
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.671ns (0.325ns logic, 0.346ns route)
+                                                       (48.4% logic, 51.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C26), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.672ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.672ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P26      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C26      net (fanout=4)        0.347   counter<26>
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.672ns (0.325ns logic, 0.347ns route)
+                                                       (48.4% logic, 51.6% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: TS_USER_CLK = PERIOD TIMEGRP "CLK_33MHZ_FPGA" 30.3 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 28.078ns (period - min period limit)
+  Period: 30.300ns
+  Min period limit: 2.222ns (450.045MHz) (Tdspper_MULP)
+  Physical resource: Mcount_counter1/CLK
+  Logical resource: Mcount_counter1/CLK
+  Location pin: DSP48_X0Y18.CLK
+  Clock network: Clock
+--------------------------------------------------------------------------------
+Slack: 28.634ns (period - min period limit)
+  Period: 30.300ns
+  Min period limit: 1.666ns (600.240MHz) (Tbgper_I)
+  Physical resource: ClockBuf/I0
+  Logical resource: ClockBuf/I0
+  Location pin: BUFGCTRL_X0Y0.I0
+  Clock network: CLK_33MHZ_FPGA_IBUFG
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK_33MHZ_FPGA
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK_33MHZ_FPGA |    2.847|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 32 paths, 0 nets, and 34 connections
+
+Design statistics:
+   Minimum period:   2.847ns{1}   (Maximum frequency: 351.247MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Tue Mar  5 13:28:09 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 603 MB
+
+
+

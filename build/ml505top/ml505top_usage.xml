@@ -1,0 +1,1266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="25">
+<DesignStatistics TimeStamp="Tue Mar  5 13:27:44 2013"><group name="NetStatistics">
+<item name="NumNets_Active" rev="25">
+<attrib name="value" value="69"/></item>
+<item name="NumNets_Gnd" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNets_Vcc" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_BOUNCEACROSS" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_BOUNCEIN" rev="25">
+<attrib name="value" value="29"/></item>
+<item name="NumNodesOfType_Active_BUFGOUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_CLKPIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_DOUBLE" rev="25">
+<attrib name="value" value="81"/></item>
+<item name="NumNodesOfType_Active_GENERIC" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="NumNodesOfType_Active_GLOBAL" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Active_HLONG" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="NumNodesOfType_Active_INPUT" rev="25">
+<attrib name="value" value="69"/></item>
+<item name="NumNodesOfType_Active_IOBIN2OUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_IOBINPUT" rev="25">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Active_IOBOUTPUT" rev="25">
+<attrib name="value" value="9"/></item>
+<item name="NumNodesOfType_Active_OUTBOUND" rev="25">
+<attrib name="value" value="72"/></item>
+<item name="NumNodesOfType_Active_OUTPUT" rev="25">
+<attrib name="value" value="42"/></item>
+<item name="NumNodesOfType_Active_PADINPUT" rev="25">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Active_PADOUTPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Active_PENT" rev="25">
+<attrib name="value" value="40"/></item>
+<item name="NumNodesOfType_Active_PINBOUNCE" rev="25">
+<attrib name="value" value="31"/></item>
+<item name="NumNodesOfType_Active_PINFEED" rev="25">
+<attrib name="value" value="78"/></item>
+<item name="NumNodesOfType_Active_VLONG" rev="25">
+<attrib name="value" value="16"/></item>
+<item name="NumNodesOfType_Gnd_BOUNCEIN" rev="25">
+<attrib name="value" value="17"/></item>
+<item name="NumNodesOfType_Gnd_CNTRLPIN" rev="25">
+<attrib name="value" value="10"/></item>
+<item name="NumNodesOfType_Gnd_HGNDOUT" rev="25">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Gnd_INPUT" rev="25">
+<attrib name="value" value="81"/></item>
+<item name="NumNodesOfType_Gnd_IOBINPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_IOBOUTPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_PADINPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Gnd_PINBOUNCE" rev="25">
+<attrib name="value" value="26"/></item>
+<item name="NumNodesOfType_Gnd_PINFEED" rev="25">
+<attrib name="value" value="92"/></item>
+<item name="NumNodesOfType_Vcc_CNTRLPIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_INPUT" rev="25">
+<attrib name="value" value="6"/></item>
+<item name="NumNodesOfType_Vcc_IOBINPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_IOBOUTPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_KVCCOUT" rev="25">
+<attrib name="value" value="5"/></item>
+<item name="NumNodesOfType_Vcc_PADINPUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_PINBOUNCE" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_PINFEED" rev="25">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="BUFG-BUFGCTRL" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="IOB-IOBM" rev="25">
+<attrib name="value" value="8"/></item>
+<item name="IOB-IOBS" rev="25">
+<attrib name="value" value="11"/></item>
+<item name="SLICEL-SLICEM" rev="25">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="24">
+<attrib name="value" value="19"/></item>
+<item name="AGG_IO" rev="24">
+<attrib name="value" value="19"/></item>
+<item name="AGG_LOCED_IO" rev="24">
+<attrib name="value" value="19"/></item>
+<item name="AGG_SLICE" rev="24">
+<attrib name="value" value="7"/></item>
+<item name="NUM_BONDED_IOB" rev="24">
+<attrib name="value" value="19"/></item>
+<item name="NUM_BSLUTONLY" rev="24">
+<attrib name="value" value="9"/></item>
+<item name="NUM_BSUSED" rev="24">
+<attrib name="value" value="9"/></item>
+<item name="NUM_BUFG" rev="24">
+<attrib name="value" value="1"/></item>
+<item name="NUM_DSP48E" rev="24">
+<attrib name="value" value="1"/></item>
+<item name="NUM_LOCED_IOB" rev="24">
+<attrib name="value" value="19"/></item>
+<item name="NUM_LOGIC_O6ONLY" rev="24">
+<attrib name="value" value="9"/></item>
+<item name="NUM_SLICEL" rev="24">
+<attrib name="value" value="7"/></item>
+<item name="NUM_SLICE_CYINIT" rev="24">
+<attrib name="value" value="9"/></item>
+<item name="NUM_SLICE_F7MUX" rev="24">
+<attrib name="value" value="1"/></item>
+<item name="NUM_SLICE_UNUSEDCTRL" rev="24">
+<attrib name="value" value="7"/></item>
+</group>
+</DesignStatistics>
+<DeviceUsage TimeStamp="Tue Mar  5 13:27:44 2013"><group name="SiteSummary">
+<item name="BUFG" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="BUFG_BUFG" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="DSP48E" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="DSP48E_DSP48E" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="IOB" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="19"/></item>
+<item name="IOB_INBUF" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="9"/></item>
+<item name="IOB_OUTBUF" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="10"/></item>
+<item name="IOB_PAD" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="19"/></item>
+<item name="SLICEL" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="7"/></item>
+<item name="SLICEL_A6LUT" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="4"/></item>
+<item name="SLICEL_B6LUT" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="SLICEL_C6LUT" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+<item name="SLICEL_D6LUT" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="2"/></item>
+<item name="SLICEL_F7BMUX" rev="25">
+<attrib name="total" value="1000000"/><attrib name="used" value="1"/></item>
+</group>
+</DeviceUsage>
+<ReportConfigData TimeStamp="Tue Mar  5 13:27:44 2013"><group name="SLICEL_CFF">
+<item name="CFFINIT" rev="21">
+<attrib name="INIT0" value="1"/></item>
+<item name="CFFSR" rev="21">
+<attrib name="SRLOW" value="1"/></item>
+<item name="CK" rev="21">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="LATCH_OR_FF" rev="21">
+<attrib name="FF" value="1"/></item>
+<item name="SYNC_ATTR" rev="21">
+<attrib name="ASYNC" value="1"/></item>
+</group>
+<group name="SLICEL_DFF">
+<item name="CK" rev="6">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="DFFINIT" rev="6">
+<attrib name="INIT0" value="1"/></item>
+<item name="DFFSR" rev="6">
+<attrib name="SRLOW" value="1"/></item>
+<item name="LATCH_OR_FF" rev="6">
+<attrib name="FF" value="1"/></item>
+<item name="SYNC_ATTR" rev="6">
+<attrib name="ASYNC" value="1"/></item>
+</group>
+<group name="SLICEL">
+<item name="CLK" rev="21">
+<attrib name="CLK" value="5"/><attrib name="CLK_INV" value="0"/></item>
+</group>
+<group name="DSP48E">
+<item name="ALUMODE0" rev="25">
+<attrib name="ALUMODE0" value="1"/><attrib name="ALUMODE0_INV" value="0"/></item>
+<item name="ALUMODE1" rev="25">
+<attrib name="ALUMODE1" value="1"/><attrib name="ALUMODE1_INV" value="0"/></item>
+<item name="ALUMODE2" rev="25">
+<attrib name="ALUMODE2" value="1"/><attrib name="ALUMODE2_INV" value="0"/></item>
+<item name="ALUMODE3" rev="25">
+<attrib name="ALUMODE3" value="1"/><attrib name="ALUMODE3_INV" value="0"/></item>
+<item name="CARRYIN" rev="25">
+<attrib name="CARRYIN" value="1"/><attrib name="CARRYIN_INV" value="0"/></item>
+<item name="CLK" rev="25">
+<attrib name="CLK" value="1"/><attrib name="CLK_INV" value="0"/></item>
+<item name="OPMODE0" rev="25">
+<attrib name="OPMODE0" value="1"/><attrib name="OPMODE0_INV" value="0"/></item>
+<item name="OPMODE1" rev="25">
+<attrib name="OPMODE1_INV" value="0"/><attrib name="OPMODE1" value="1"/></item>
+<item name="OPMODE2" rev="25">
+<attrib name="OPMODE2" value="1"/><attrib name="OPMODE2_INV" value="0"/></item>
+<item name="OPMODE3" rev="25">
+<attrib name="OPMODE3" value="1"/><attrib name="OPMODE3_INV" value="0"/></item>
+<item name="OPMODE4" rev="25">
+<attrib name="OPMODE4" value="1"/><attrib name="OPMODE4_INV" value="0"/></item>
+<item name="OPMODE5" rev="25">
+<attrib name="OPMODE5_INV" value="0"/><attrib name="OPMODE5" value="1"/></item>
+<item name="OPMODE6" rev="25">
+<attrib name="OPMODE6_INV" value="0"/><attrib name="OPMODE6" value="1"/></item>
+</group>
+<group name="DSP48E_DSP48E">
+<item name="ACASCREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="ALUMODE0" rev="25">
+<attrib name="ALUMODE0" value="1"/><attrib name="ALUMODE0_INV" value="0"/></item>
+<item name="ALUMODE1" rev="25">
+<attrib name="ALUMODE1" value="1"/><attrib name="ALUMODE1_INV" value="0"/></item>
+<item name="ALUMODE2" rev="25">
+<attrib name="ALUMODE2" value="1"/><attrib name="ALUMODE2_INV" value="0"/></item>
+<item name="ALUMODE3" rev="25">
+<attrib name="ALUMODE3" value="1"/><attrib name="ALUMODE3_INV" value="0"/></item>
+<item name="ALUMODEREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="AREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="AUTORESET_OVER_UNDER_FLOW" rev="25">
+<attrib name="FALSE" value="1"/></item>
+<item name="AUTORESET_PATTERN_DETECT" rev="25">
+<attrib name="FALSE" value="1"/></item>
+<item name="AUTORESET_PATTERN_DETECT_OPTINV" rev="25">
+<attrib name="MATCH" value="1"/></item>
+<item name="A_INPUT" rev="25">
+<attrib name="DIRECT" value="1"/></item>
+<item name="BCASCREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="BREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="B_INPUT" rev="25">
+<attrib name="DIRECT" value="1"/></item>
+<item name="CARRYIN" rev="25">
+<attrib name="CARRYIN" value="1"/><attrib name="CARRYIN_INV" value="0"/></item>
+<item name="CARRYINREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="CARRYINSELREG" rev="25">
+<attrib name="1" value="1"/></item>
+<item name="CLK" rev="25">
+<attrib name="CLK" value="1"/><attrib name="CLK_INV" value="0"/></item>
+<item name="CLOCK_INVERT_M" rev="25">
+<attrib name="SAME_EDGE" value="1"/></item>
+<item name="CLOCK_INVERT_P" rev="25">
+<attrib name="SAME_EDGE" value="1"/></item>
+<item name="CREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="LFSR_EN_SET" rev="25">
+<attrib name="SET" value="1"/></item>
+<item name="LFSR_EN_SETVAL" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="MREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="MULTCARRYINREG" rev="25">
+<attrib name="1" value="1"/></item>
+<item name="OPMODE0" rev="25">
+<attrib name="OPMODE0" value="1"/><attrib name="OPMODE0_INV" value="0"/></item>
+<item name="OPMODE1" rev="25">
+<attrib name="OPMODE1_INV" value="0"/><attrib name="OPMODE1" value="1"/></item>
+<item name="OPMODE2" rev="25">
+<attrib name="OPMODE2" value="1"/><attrib name="OPMODE2_INV" value="0"/></item>
+<item name="OPMODE3" rev="25">
+<attrib name="OPMODE3" value="1"/><attrib name="OPMODE3_INV" value="0"/></item>
+<item name="OPMODE4" rev="25">
+<attrib name="OPMODE4" value="1"/><attrib name="OPMODE4_INV" value="0"/></item>
+<item name="OPMODE5" rev="25">
+<attrib name="OPMODE5_INV" value="0"/><attrib name="OPMODE5" value="1"/></item>
+<item name="OPMODE6" rev="25">
+<attrib name="OPMODE6_INV" value="0"/><attrib name="OPMODE6" value="1"/></item>
+<item name="OPMODEREG" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="PREG" rev="25">
+<attrib name="1" value="1"/></item>
+<item name="ROUNDING_LSB_MASK" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="SCAN_IN_SETVAL_M" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="SCAN_IN_SETVAL_P" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="SCAN_IN_SET_M" rev="25">
+<attrib name="SET" value="1"/></item>
+<item name="SCAN_IN_SET_P" rev="25">
+<attrib name="SET" value="1"/></item>
+<item name="SEL_MASK" rev="25">
+<attrib name="MASK" value="1"/></item>
+<item name="SEL_PATTERN" rev="25">
+<attrib name="PATTERN" value="1"/></item>
+<item name="SEL_ROUNDING_MASK" rev="25">
+<attrib name="SEL_MASK" value="1"/></item>
+<item name="TEST_SETVAL_M" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="TEST_SETVAL_P" rev="25">
+<attrib name="0" value="1"/></item>
+<item name="TEST_SET_M" rev="25">
+<attrib name="SET" value="1"/></item>
+<item name="TEST_SET_P" rev="25">
+<attrib name="SET" value="1"/></item>
+<item name="USE_MULT" rev="25">
+<attrib name="NONE" value="1"/></item>
+<item name="USE_PATTERN_DETECT" rev="25">
+<attrib name="NO_PATDET" value="1"/></item>
+<item name="USE_SIMD" rev="25">
+<attrib name="ONE48" value="1"/></item>
+</group>
+<group name="SLICEL_AFF">
+<item name="AFFINIT" rev="21">
+<attrib name="INIT0" value="4"/></item>
+<item name="AFFSR" rev="21">
+<attrib name="SRLOW" value="4"/></item>
+<item name="CK" rev="21">
+<attrib name="CK" value="4"/><attrib name="CK_INV" value="0"/></item>
+<item name="LATCH_OR_FF" rev="21">
+<attrib name="FF" value="4"/></item>
+<item name="SYNC_ATTR" rev="21">
+<attrib name="ASYNC" value="4"/></item>
+</group>
+<group name="SLICEL_BFF">
+<item name="BFFINIT" rev="2">
+<attrib name="INIT0" value="1"/></item>
+<item name="BFFSR" rev="2">
+<attrib name="SRLOW" value="1"/></item>
+<item name="CK" rev="2">
+<attrib name="CK" value="1"/><attrib name="CK_INV" value="0"/></item>
+<item name="LATCH_OR_FF" rev="2">
+<attrib name="FF" value="1"/></item>
+<item name="SYNC_ATTR" rev="2">
+<attrib name="ASYNC" value="1"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Tue Mar  5 13:27:44 2013"><group name="SLICEL_CFF">
+<item name="CE" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="CK" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="21">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_B6LUT">
+<item name="A4" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="O6" rev="25">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="SLICEL_CARRY4">
+<item name="CIN" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="CO1" rev="21">
+<attrib name="value" value="1"/></item>
+<item name="CO2" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="CO3" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="CYINIT" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="DI0" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="DI1" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="DI2" rev="21">
+<attrib name="value" value="9"/></item>
+<item name="DI3" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="S0" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="S1" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="S2" rev="21">
+<attrib name="value" value="9"/></item>
+<item name="S3" rev="21">
+<attrib name="value" value="5"/></item>
+</group>
+<group name="SLICEL_DFF">
+<item name="CE" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="CK" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="6">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="6">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL">
+<item name="A" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="A1" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A2" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A3" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A4" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="B" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="B4" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="B5" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="B6" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="CMUX" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CX" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="D1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="D2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="D3" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="D4" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="D5" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="D6" rev="25">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="DSP48E">
+<item name="A0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C30" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C31" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C32" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C33" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C34" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C35" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C36" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C37" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C38" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C39" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C40" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C41" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C42" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C43" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C44" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C45" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C46" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C47" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEA1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEA2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEALUMODE" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEB1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEB2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEC" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CECARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CECTRL" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEM" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEMULTCARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEP" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CLK" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P30" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P31" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTA" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTALLCARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTALUMODE" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTB" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTC" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTCTRL" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTM" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTP" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_A5LUT">
+<item name="A1" rev="21">
+<attrib name="value" value="7"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="8"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="9"/></item>
+<item name="A5" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="O5" rev="21">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="DSP48E_DSP48E">
+<item name="A0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="ALUMODE3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="B9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C30" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C31" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C32" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C33" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C34" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C35" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C36" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C37" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C38" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C39" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C40" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C41" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C42" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C43" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C44" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C45" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C46" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C47" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="C9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CARRYINSEL2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEA1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEA2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEALUMODE" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEB1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEB2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEC" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CECARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CECTRL" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEM" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEMULTCARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CEP" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="CLK" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OPMODE6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P10" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P11" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P12" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P13" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P14" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P15" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P16" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P17" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P18" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P19" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P20" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P21" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P22" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P23" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P24" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P25" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P26" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P27" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P28" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P29" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P3" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P30" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P31" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P4" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P5" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P6" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P7" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P8" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="P9" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTA" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTALLCARRYIN" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTALUMODE" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTB" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTC" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTCTRL" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTM" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="RSTP" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="IOB_OUTBUF">
+<item name="IN" rev="25">
+<attrib name="value" value="10"/></item>
+<item name="OUT" rev="25">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="BUFG_BUFG">
+<item name="I0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_C6LUT">
+<item name="O6" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_F7BMUX">
+<item name="0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="OUT" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="S0" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_B5LUT">
+<item name="A1" rev="21">
+<attrib name="value" value="8"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="9"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="9"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="8"/></item>
+<item name="A5" rev="21">
+<attrib name="value" value="10"/></item>
+<item name="O5" rev="21">
+<attrib name="value" value="10"/></item>
+</group>
+<group name="IOB_INBUF">
+<item name="OUT" rev="25">
+<attrib name="value" value="9"/></item>
+<item name="PAD" rev="25">
+<attrib name="value" value="9"/></item>
+</group>
+<group name="SLICEL_D6LUT">
+<item name="A1" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A2" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="A3" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A4" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="O6" rev="25">
+<attrib name="value" value="2"/></item>
+</group>
+<group name="SLICEL_C5LUT">
+<item name="A1" rev="21">
+<attrib name="value" value="3"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="7"/></item>
+<item name="A5" rev="21">
+<attrib name="value" value="8"/></item>
+<item name="O5" rev="21">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="SLICEL_AFF">
+<item name="CE" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="CK" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="D" rev="21">
+<attrib name="value" value="4"/></item>
+<item name="Q" rev="21">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="IOB_PAD">
+<item name="PAD" rev="25">
+<attrib name="value" value="19"/></item>
+</group>
+<group name="SLICEL_A6LUT">
+<item name="A1" rev="25">
+<attrib name="value" value="2"/></item>
+<item name="A2" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A3" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A4" rev="25">
+<attrib name="value" value="3"/></item>
+<item name="A5" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="A6" rev="25">
+<attrib name="value" value="4"/></item>
+<item name="O6" rev="25">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="SLICEL_CYINITVCC">
+<item name="1" rev="21">
+<attrib name="value" value="5"/></item>
+</group>
+<group name="IOB">
+<item name="I" rev="25">
+<attrib name="value" value="9"/></item>
+<item name="O" rev="25">
+<attrib name="value" value="10"/></item>
+<item name="PAD" rev="25">
+<attrib name="value" value="19"/></item>
+</group>
+<group name="SLICEL_BFF">
+<item name="CE" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="CK" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="D" rev="2">
+<attrib name="value" value="1"/></item>
+<item name="Q" rev="2">
+<attrib name="value" value="1"/></item>
+</group>
+<group name="SLICEL_D5LUT">
+<item name="A1" rev="21">
+<attrib name="value" value="2"/></item>
+<item name="A2" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="A3" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="A4" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="A5" rev="21">
+<attrib name="value" value="5"/></item>
+<item name="O5" rev="21">
+<attrib name="value" value="5"/></item>
+</group>
+<group name="BUFG">
+<item name="I0" rev="25">
+<attrib name="value" value="1"/></item>
+<item name="O" rev="25">
+<attrib name="value" value="1"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>
