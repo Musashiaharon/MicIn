@@ -556,7 +556,7 @@ Slack (hold path):      0.666ns (requirement - (clock path skew + uncertainty - 
 
 --------------------------------------------------------------------------------
 
-Paths for end point Mcount_counter1 (DSP48_X0Y18.C23), 1 path
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C31), 1 path
 --------------------------------------------------------------------------------
 Slack (hold path):      0.667ns (requirement - (clock path skew + uncertainty - data path))
   Source:               Mcount_counter1 (DSP)
@@ -572,9 +572,9 @@ Slack (hold path):      0.667ns (requirement - (clock path skew + uncertainty - 
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    DSP48_X0Y18.P23      Tdspcko_PP            0.190   Mcount_counter1
+    DSP48_X0Y18.P31      Tdspcko_PP            0.190   Mcount_counter1
                                                        Mcount_counter1
-    DSP48_X0Y18.C23      net (fanout=1)        0.342   Q_23
+    DSP48_X0Y18.C31      net (fanout=1)        0.342   Q_31
     DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
                                                        Mcount_counter1
     -------------------------------------------------  ---------------------------
@@ -583,34 +583,7 @@ Slack (hold path):      0.667ns (requirement - (clock path skew + uncertainty - 
 
 --------------------------------------------------------------------------------
 
-Paths for end point Mcount_counter1 (DSP48_X0Y18.C25), 1 path
---------------------------------------------------------------------------------
-Slack (hold path):      0.671ns (requirement - (clock path skew + uncertainty - data path))
-  Source:               Mcount_counter1 (DSP)
-  Destination:          Mcount_counter1 (DSP)
-  Requirement:          0.000ns
-  Data Path Delay:      0.671ns (Levels of Logic = 0)
-  Clock Path Skew:      0.000ns
-  Source Clock:         Clock rising at 30.300ns
-  Destination Clock:    Clock rising at 30.300ns
-  Clock Uncertainty:    0.000ns
-
-  Minimum Data Path: Mcount_counter1 to Mcount_counter1
-    Location             Delay type         Delay(ns)  Physical Resource
-                                                       Logical Resource(s)
-    -------------------------------------------------  -------------------
-    DSP48_X0Y18.P25      Tdspcko_PP            0.190   Mcount_counter1
-                                                       Mcount_counter1
-    DSP48_X0Y18.C25      net (fanout=3)        0.346   counter<25>
-    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
-                                                       Mcount_counter1
-    -------------------------------------------------  ---------------------------
-    Total                                      0.671ns (0.325ns logic, 0.346ns route)
-                                                       (48.4% logic, 51.6% route)
-
---------------------------------------------------------------------------------
-
-Paths for end point Mcount_counter1 (DSP48_X0Y18.C26), 1 path
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C22), 1 path
 --------------------------------------------------------------------------------
 Slack (hold path):      0.672ns (requirement - (clock path skew + uncertainty - data path))
   Source:               Mcount_counter1 (DSP)
@@ -626,14 +599,41 @@ Slack (hold path):      0.672ns (requirement - (clock path skew + uncertainty - 
     Location             Delay type         Delay(ns)  Physical Resource
                                                        Logical Resource(s)
     -------------------------------------------------  -------------------
-    DSP48_X0Y18.P26      Tdspcko_PP            0.190   Mcount_counter1
+    DSP48_X0Y18.P22      Tdspcko_PP            0.190   Mcount_counter1
                                                        Mcount_counter1
-    DSP48_X0Y18.C26      net (fanout=4)        0.347   counter<26>
+    DSP48_X0Y18.C22      net (fanout=2)        0.347   counter<22>
     DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
                                                        Mcount_counter1
     -------------------------------------------------  ---------------------------
     Total                                      0.672ns (0.325ns logic, 0.347ns route)
                                                        (48.4% logic, 51.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Mcount_counter1 (DSP48_X0Y18.C25), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.677ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Mcount_counter1 (DSP)
+  Destination:          Mcount_counter1 (DSP)
+  Requirement:          0.000ns
+  Data Path Delay:      0.677ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         Clock rising at 30.300ns
+  Destination Clock:    Clock rising at 30.300ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Mcount_counter1 to Mcount_counter1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    DSP48_X0Y18.P25      Tdspcko_PP            0.190   Mcount_counter1
+                                                       Mcount_counter1
+    DSP48_X0Y18.C25      net (fanout=5)        0.352   counter<25>
+    DSP48_X0Y18.CLK      Tdspckd_CP  (-Th)    -0.135   Mcount_counter1
+                                                       Mcount_counter1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.677ns (0.325ns logic, 0.352ns route)
+                                                       (48.0% logic, 52.0% route)
 
 --------------------------------------------------------------------------------
 
@@ -687,7 +687,7 @@ Design statistics:
 ------------------------------------Footnotes-----------------------------------
 1)  The minimum period statistic assumes all single cycle delays.
 
-Analysis completed Tue Mar  5 13:28:09 2013 
+Analysis completed Tue Mar 19 16:01:22 2013 
 --------------------------------------------------------------------------------
 
 Trace Settings:

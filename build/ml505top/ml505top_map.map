@@ -10,7 +10,7 @@ Target Device  : xc5vlx110t
 Target Package : ff1136
 Target Speed   : -1
 Mapper Version : virtex5 -- $Revision: 1.55 $
-Mapped Date    : Tue Mar  5 13:25:28 2013
+Mapped Date    : Tue Mar 19 15:58:41 2013
 
 vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 INFO:Security:50 - The XILINXD_LICENSE_FILE environment variable is set to
@@ -39,16 +39,16 @@ Total REAL time at the beginning of Placer: 28 secs
 Total CPU  time at the beginning of Placer: 28 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:c2deb3d5) REAL time: 30 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:c2deb3d5) REAL time: 31 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:c2deb3d5) REAL time: 30 secs 
+Phase 2.7  Design Feasibility Check (Checksum:c2deb3d5) REAL time: 31 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 30 secs 
+Phase 3.31  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 31 secs 
 
 Phase 4.37  Local Placement Optimization
-Phase 4.37  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 30 secs 
+Phase 4.37  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 31 secs 
 
 Phase 5.33  Local Placement Optimization
 Phase 5.33  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 31 secs 
@@ -58,39 +58,39 @@ Phase 6.32  Local Placement Optimization (Checksum:c2deb3d5) REAL time: 31 secs
 
 Phase 7.2  Initial Clock and IO Placement
 
-Phase 7.2  Initial Clock and IO Placement (Checksum:5f0f6a82) REAL time: 31 secs 
+Phase 7.2  Initial Clock and IO Placement (Checksum:5f0f6a82) REAL time: 32 secs 
 
 Phase 8.36  Local Placement Optimization
-Phase 8.36  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 31 secs 
+Phase 8.36  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 32 secs 
 
 Phase 9.30  Global Clock Region Assignment
-Phase 9.30  Global Clock Region Assignment (Checksum:5f0f6a82) REAL time: 31 secs 
+Phase 9.30  Global Clock Region Assignment (Checksum:5f0f6a82) REAL time: 32 secs 
 
 Phase 10.3  Local Placement Optimization
-Phase 10.3  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 31 secs 
+Phase 10.3  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 32 secs 
 
 Phase 11.5  Local Placement Optimization
-Phase 11.5  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 31 secs 
+Phase 11.5  Local Placement Optimization (Checksum:5f0f6a82) REAL time: 32 secs 
 
 Phase 12.8  Global Placement
 ...............
 ..
-Phase 12.8  Global Placement (Checksum:2e88f545) REAL time: 32 secs 
+Phase 12.8  Global Placement (Checksum:e9d3af1e) REAL time: 32 secs 
 
 Phase 13.29  Local Placement Optimization
-Phase 13.29  Local Placement Optimization (Checksum:2e88f545) REAL time: 32 secs 
+Phase 13.29  Local Placement Optimization (Checksum:e9d3af1e) REAL time: 32 secs 
 
 Phase 14.5  Local Placement Optimization
-Phase 14.5  Local Placement Optimization (Checksum:2e88f545) REAL time: 32 secs 
+Phase 14.5  Local Placement Optimization (Checksum:e9d3af1e) REAL time: 32 secs 
 
 Phase 15.18  Placement Optimization
-Phase 15.18  Placement Optimization (Checksum:c1c8c4a1) REAL time: 32 secs 
+Phase 15.18  Placement Optimization (Checksum:451171ca) REAL time: 32 secs 
 
 Phase 16.5  Local Placement Optimization
-Phase 16.5  Local Placement Optimization (Checksum:c1c8c4a1) REAL time: 32 secs 
+Phase 16.5  Local Placement Optimization (Checksum:451171ca) REAL time: 32 secs 
 
 Phase 17.34  Placement Validation
-Phase 17.34  Placement Validation (Checksum:c1c8c4a1) REAL time: 32 secs 
+Phase 17.34  Placement Validation (Checksum:451171ca) REAL time: 32 secs 
 
 Total REAL time to Placer completion: 32 secs 
 Total CPU  time to Placer completion: 32 secs 
@@ -138,7 +138,7 @@ Average Fanout of Non-Clock Nets:                1.57
 
 Peak Memory Usage:  1024 MB
 Total REAL time to MAP completion:  34 secs 
-Total CPU time to MAP completion:   33 secs 
+Total CPU time to MAP completion:   34 secs 
 
 Mapping completed.
 See MAP report file "ml505top_map.mrp" for details.

@@ -1,0 +1,13 @@
+# Output products list for <dds_trig>
+dds_trig/doc/dds_compiler_v4_0_vinfo.html
+dds_trig/doc/dds_ds558.pdf
+dds_trig.asy
+dds_trig.gise
+dds_trig.ngc
+dds_trig.v
+dds_trig.veo
+dds_trig.xco
+dds_trig.xise
+dds_trig_flist.txt
+dds_trig_readme.txt
+dds_trig_xmdf.tcl

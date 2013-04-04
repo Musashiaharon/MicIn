@@ -22,7 +22,7 @@ module ml505top (
 
   reg [31:0] counter;
 
-  LogGraph #(.MSB(31)) lg (
+  LogGraph #(.MSB(29)) lg ( // divide by 4
     .I(counter),
     .O(GPIO_LED)
   );

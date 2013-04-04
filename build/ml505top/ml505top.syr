@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total CPU time to Xst completion: 0.14 secs
  
 --> 
 
@@ -113,7 +113,9 @@ Slice Utilization Ratio Delta      : 5
 Compiling verilog file "../../src/ml505top.v" in library work
 Compiling verilog file "../../src/LogGraph.v" in library work
 Module <ml505top> compiled
+Compiling verilog file "../../src/xfft.v" in library work
 Module <LogGraph> compiled
+Module <xfft> compiled
 No errors in compilation
 Analysis of file <"ml505top.prj"> succeeded.
  
@@ -124,7 +126,7 @@ Analysis of file <"ml505top.prj"> succeeded.
 Analyzing hierarchy for module <ml505top> in library <work>.
 
 Analyzing hierarchy for module <LogGraph> in library <work> with parameters.
-	MSB = "00000000000000000000000000011111"
+	MSB = "00000000000000000000000000011101"
 
 
 =========================================================================
@@ -134,7 +136,7 @@ Analyzing top module <ml505top>.
 Module <ml505top> is correct for synthesis.
  
 Analyzing module <LogGraph> in library <work>.
-	MSB = 32'sb00000000000000000000000000011111
+	MSB = 32'sb00000000000000000000000000011101
 Module <LogGraph> is correct for synthesis.
  
 
@@ -146,7 +148,8 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <LogGraph>.
     Related source file is "../../src/LogGraph.v".
-WARNING:Xst:647 - Input <I<23:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <I<31:30>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <I<21:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 Unit <LogGraph> synthesized.
 
 
@@ -327,8 +330,8 @@ Delay:               2.634ns (Levels of Logic = 0)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     DSP48E:CLK->P31       9   0.556   0.380  Mcount_counter1 (counter<31>)
-     DSP48E:C31                1.698          Mcount_counter1
+     DSP48E:CLK->P29       9   0.556   0.380  Mcount_counter1 (counter<29>)
+     DSP48E:C29                1.698          Mcount_counter1
     ----------------------------------------
     Total                      2.634ns (2.254ns logic, 0.380ns route)
                                        (85.6% logic, 14.4% route)
@@ -346,7 +349,7 @@ Offset:              4.796ns (Levels of Logic = 3)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     DSP48E:CLK->P30       8   0.556   1.107  Mcount_counter1 (counter<30>)
+     DSP48E:CLK->P28       8   0.556   1.107  Mcount_counter1 (counter<28>)
      LUT6:I0->O            1   0.094   0.000  lg/O_6_or00001 (lg/O_6_or0000)
      MUXF7:I0->O           1   0.251   0.336  lg/O_6_or0000_f7 (GPIO_LED_6_OBUF)
      OBUF:I->O                 2.452          GPIO_LED_6_OBUF (GPIO_LED<6>)
@@ -358,14 +361,14 @@ Offset:              4.796ns (Levels of Logic = 3)
 
 
 Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 21.72 secs
+Total CPU time to Xst completion: 21.62 secs
  
 --> 
 
 
-Total memory usage is 671708 kilobytes
+Total memory usage is 671720 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    5 (   0 filtered)
+Number of warnings :    6 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

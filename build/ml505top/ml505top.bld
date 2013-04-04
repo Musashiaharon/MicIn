@@ -2,11 +2,13 @@ Release 14.1 ngdbuild P.15xf (lin64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 Command Line: /opt/Xilinx/14.1/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -dd _ngo
--sd ../../src -nt timestamp -uc ../../src/ml505top.ucf -p xc5vlx110t-ff1136-1
-ml505top.ngc ml505top.ngd
+-sd ../../src -sd ../../src/tmp -sd ../../src/tmp/_cg -sd ../../src/tmp/_xmsgs
+-sd ../../src/xfft -sd ../../src/xfft/doc -sd ../../src/xlnx_auto_0_xdb -nt
+timestamp -uc ../../src/ml505top.ucf -p xc5vlx110t-ff1136-1 ml505top.ngc
+ml505top.ngd
 
 Reading NGO file
-"/home/cc/cs150/sp13/class/cs150-ac/micIn/build/ml505top/ml505top.ngc" ...
+"/home/cc/cs150/sp13/class/cs150-ac/proj/MicIn/build/ml505top/ml505top.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,7 +30,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 503260 kilobytes
+Total memory usage is 503312 kilobytes
 
 Writing NGD file "ml505top.ngd" ...
 Total REAL time to NGDBUILD completion:  10 sec
